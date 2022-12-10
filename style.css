@@ -12,7 +12,7 @@ body{
     background-image: url(./assests/bg.jpg);
 }
 .hats{
-    width: 50px;
+    width: 40px;
 }
 
 p{
@@ -33,12 +33,16 @@ p{
 .card{
     background-color: white;
     width: 30%;
-    height: 85%;
+    height: 84%;
+    padding: 0rem .5rem;
+    position: relative;
+}
+.abs{
+    position: absolute;
 }
 .mbapp{
-    width: 80%;
-    height: 300px;
-    /* height: 100%; */
+  width: 85%;
+  height:340px;
 }
 .center{
     display: flex;
@@ -51,6 +55,7 @@ p{
 
 .bottmCard{
     transform: rotate(180deg);
+    left:1rem
 }
 .up{
     margin-left: .4rem;
