@@ -18,6 +18,7 @@ body{
 p{
     color: rgb(255,0,0);
     font-size: 2rem;
+    font-weight: bold;
 }
 .flex-start{
     display: flex;
@@ -40,7 +41,7 @@ p{
 
 .card{
     background-color: white;
-    width: 30%;
+    width: 28%;
     height: 84%;
     padding: 0rem .5rem;
     position: relative;
@@ -60,11 +61,21 @@ p{
 }
 .midCard{
     width: 100%;
+    flex-direction: column;
 }
 
 .bottmCard{
     transform: rotate(180deg);
     left:1rem
+}
+.now{
+    margin-right: 20rem;
+}
+.no{
+    margin-left: 19rem;
+}
+.rota{
+    transform: rotate(180deg);
 }
 .up{
     margin-left: .4rem;
