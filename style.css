@@ -29,6 +29,14 @@ p{
     justify-content: flex-end;
     /* flex-direction: column; */
 }
+.name{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 19rem;
+    /* color: blue; */
+    position: absolute;
+}
 
 .card{
     background-color: white;
@@ -36,6 +44,7 @@ p{
     height: 84%;
     padding: 0rem .5rem;
     position: relative;
+    border-radius: .5rem;
 }
 .abs{
     /* position: absolute; */
