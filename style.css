@@ -5,30 +5,55 @@
 body{
     width: 100vw;
 }
-.conatiner{
+.container{
     width: 100%;
-    background: url(./);
+    height: 100vh;
+    background-image: url(./assests/bg.jpg);
 }
 .hats{
     width: 50px;
 }
-.mbapp{
-    width: 100%;
+
+p{
+    color: rgb(255,0,0);
+    font-size: 2rem;
 }
 .flex-start{
     display: flex;
     justify-content: flex-start;
+    flex-direction: column;
 }
 .flex-end{
     display: flex;
     justify-content: flex-end;
+    /* flex-direction: column; */
 }
+
 .card{
+    background-color: white;
     width: 30%;
-    height: 400px;
+    height: 85%;
+}
+.mbapp{
+    width: 80%;
+    height: 300px;
+    /* height: 100%; */
 }
 .center{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.midCard{
+    width: 100%;
+}
+
+.bottmCard{
+    transform: rotate(180deg);
+}
+.up{
+    margin-left: .4rem;
+}
+.down{
+    margin-right : .8rem;
 }
